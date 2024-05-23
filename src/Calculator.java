@@ -4,7 +4,7 @@ public class Calculator {
         System.out.println("Cереднє арифметичне значень аргументів a, b, c = " + c);
     }
     public static int calculate( int a, int b, int c){
-         res = ( a + b + c ) / 3;
+         double res = ( a + b + c ) / 3;
         return (int) res;
     }
 }
